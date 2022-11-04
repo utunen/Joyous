@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>TABLE</title>
+</head>
+<body>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td><br>
+    <td>Maria Anders</td><br>
+    <td>Germany</td><br>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td><br>
+    <td>Francisco Chang</td><br>
+    <td>Mexico</td><br>
+  </tr>
+</table>
+
+
+</body>
+</html>
